@@ -7,9 +7,12 @@ Rails.application.routes.draw do
   devise_for :users,
              controllers: {
                  sessions: 'users/sessions',
-                 registrations: 'users/registrations'
+                 registrations: 'users/registrations',
+                #  invitations: 'users/invitations',
              }
   get '/member-data', to: 'members#show'
   post '/invite', to: 'invite#invite'
   post '/invite/accept', to: 'invite#accept'
+  get '/accept', to: 'accept#accept'
+  post '/accepted', to: 'accepted#accepted'
 end

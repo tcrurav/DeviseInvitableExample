@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'an email for your mailer'
+  default from: Figaro.env.mailer_email_email
   layout 'mailer'
 end

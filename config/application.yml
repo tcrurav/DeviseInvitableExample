@@ -1,3 +1,7 @@
+root_url: "http://localhost:3000"
+mailer_email_email: "tiburcio.cruz@gmail.com"
+mailer_email_password: "NuevaNueva1!"
+
 db_database: "invitable_development"
 db_username: "postgres"
 db_password: "sasa"
