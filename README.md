@@ -106,7 +106,7 @@ rails s
 
 Before continuing take a time to configure your Gmail account to put it on an unsecure way but in a way to see the invitation in your inbox. Do it going to "setting for less secure apps".
 
-![Create Project](/screenshots/screenshot-02.png)
+<kbd>![Create Project](/screenshots/screenshot-02.png)</kbd>
 
 Now it's time to enjoy this project. Test your API with POSTMAN using the following requests:
 https://documenter.getpostman.com/view/3446841/UVeNkMk2
@@ -135,11 +135,11 @@ POST http://localhost:3000/invite
 
 Now you'll get a message in your Gmail inbox. Congrats!!!
 
-![Create Project](/screenshots/screenshot-01.png)
+<kbd>![Create Project](/screenshots/screenshot-01.png)</kbd>
 
 If you click on "Accept Invitation" you will be able to enter a password:
 
-![Create Project](/screenshots/screenshot-03.png)
+<kbd>![Create Project](/screenshots/screenshot-03.png)</kbd>
 
 After clicking on "Change Password" you are done. Your invitation has been accepted by the user who has changed his password. Congrats!!!
 
