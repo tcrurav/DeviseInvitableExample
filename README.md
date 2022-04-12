@@ -72,7 +72,7 @@ devise:
   jwt_secret_key: <rake secret key>
 ```
 
-edit 
+edit or create a config/application.yml file:
 
 ```
 root_url: "http://localhost:3000"
